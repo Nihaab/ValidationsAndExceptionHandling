@@ -1,0 +1,21 @@
+
+    
+ spring:
+  application:
+    name: SpringBoot-ValidationsAndExceptionHandling
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/boot?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+  mvc:
+    view:
+      suffix: .jsp      
