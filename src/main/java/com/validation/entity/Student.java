@@ -13,7 +13,7 @@ import javax.validation.constraints.Size;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.validation.annotation.Validated;
-//
+
 @Entity
 @Validated
 @Cacheable
